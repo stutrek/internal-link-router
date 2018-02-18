@@ -1,0 +1,44 @@
+{
+  "name": "internal-link-router",
+  "version": "1.0.0",
+  "description": "A component that converts <a href='' to routing actions, including smoothly scrolling hashes.",
+  "main": "dist/index.js",
+  "files": "dist/index.js",
+  "scripts": {
+    "build": "babel index.js -d dist --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://stutrek@github.com/stutrek/internal-link-router.git"
+  },
+  "keywords": [
+    "routing",
+    "react"
+  ],
+  "author": "Stu Kabakoff <sakabako@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stutrek/internal-link-router/issues"
+  },
+  "homepage": "https://github.com/stutrek/internal-link-router#readme",
+  "dependencies": {
+    "eases": "^1.0.8",
+    "react": "^15.3.2 || ^16.0.0",
+    "react-redux": "^5.0.7",
+    "react-router-redux": "^4.0.8",
+    "scrollparent": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.2.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-react": "^6.3.13"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-0"
+    ]
+  }
+}
